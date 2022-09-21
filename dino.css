@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(74, 74, 74);
+}
+
+.dino {
+    width: 60px;
+    height: 60px;
+    background-image: url(./t-rex.png);
+    position: relative;
+    left: 300px;
+
+}
+
+.principal {
+    background-color: rgb(220, 220, 220);
+    height: 200px;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+    background-image: url(./backgroundColorFall.png);
+    background-size: contain;
+    justify-content: center;
+
+}
+
+.grid {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.obstaculo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#gameover {
+    text-align: center;
+    color: rgb(72, 54, 42);
+    font-size: 70px;
+    font-weight: 900;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+    height: 150px;
+
+}
+
+#seg {
+    font-size: 60px;
+
+
+}
