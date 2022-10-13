@@ -4,8 +4,8 @@ body {
 
 .dino {
     width: 60px;
-    height: 60px;
-    background-image: url(./t-rex.png);
+    height: 89px;
+    background-image: url(./monito.gif);
     position: relative;
     left: 300px;
 
@@ -35,7 +35,8 @@ body {
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(47, 44, 44);
+    border-radius: 50%;
 
 }
 
